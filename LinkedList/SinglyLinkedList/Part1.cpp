@@ -9,3 +9,4 @@ struct Node{
     }
 
 };
+//This structure represents a node of a singly linked list, containing data and a pointer to the next node, initialized using a constructor.

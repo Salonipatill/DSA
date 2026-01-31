@@ -9,9 +9,12 @@ class Node{
         next=nullptr;
 
     }
+    //Called when no value is passed
+
 
     Node(int x){
         data=x;
         next=nullptr;
     }
+    //Called when a value is passed
 };

@@ -33,14 +33,7 @@ void printList(Node* head){
        head=head->next;
     }
     cout<<"NULL";
-}
-
-    Node* temp = head;
-    while (temp->next != nullptr){
-        temp = temp->next;
-    }
-    Node*rev = temp;
-
+}    
 int main(){
     Node* head = nullptr;
 

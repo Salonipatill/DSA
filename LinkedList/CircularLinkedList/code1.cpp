@@ -7,35 +7,25 @@ struct Node {
 };
 
 void printList(Node* head){
-    while (head != nullptr){
-        cout<<head->data<<"<->";
-        head = head->next;
-    }
-     
-}
-
-
-int main() {
-    Node* head = new Node{1};
-    Node* second = new Node{12};
-    Node* third = new Node{3};
-
-    head->next = second;
-   
-
-    second->next = third;
-
-     third->next = head;
-    
-
-     Node* temp = head;
-     
-      do{
+     if (head==nullptr) return;
+//return; means exit the function immediately
+    Node* temp = head;
+    do{
         cout << temp->data << "<->";
         temp = temp->next;
      }while (temp != head);
+     cout<< "(back to head)";  
+}
 
-     cout << "NULL";
+int main() {
+    Node* head = new Node{1, nullptr};
+    Node* second = new Node{12, nullptr};
+    Node* third = new Node{3, nullptr};
 
+    head->next = second;
+    second->next = third;
+    third->next = head;
+
+    printList(head);   
      return 0;
 }
