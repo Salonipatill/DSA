@@ -1,21 +1,3 @@
-//#include <bits/stdc++.h>  it includes almost all standar C++ libraries at once
-//#include  tells the compiler:  I want to use code from another file.
-//<bits/stdc++.h>  this is  a special header file 
-// it contains most of the C++ standeard libraries, like 
-//iostream , vector , stack , queue, map , algorithm and many more...
-//stack<int> sortStack(stack<int> &input) it is a function declaration that:
-//Takes a stack of  integers as input(by reference)
-//Returns a new stack of integers(sorted)
-//stack<int>  this is  the return type
-//The function will return a stack that stores integers.
-//(stack<int> &input)  this is the parameter
-// the input is a stack of integers
-// &input (reference)
-// The stack is passed by reference
-// No copy is created 
-//Faster and memory-efficient
-//input.top()  just looks at the top element of the stack without removing it.
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -53,3 +35,21 @@ int main(){
         tmpStack.pop();
     }
 }
+
+//#include <bits/stdc++.h>  it includes almost all standar C++ libraries at once
+//#include  tells the compiler:  I want to use code from another file.
+//<bits/stdc++.h>  this is  a special header file 
+// it contains most of the C++ standeard libraries, like 
+//iostream , vector , stack , queue, map , algorithm and many more...
+//stack<int> sortStack(stack<int> &input) it is a function declaration that:
+//Takes a stack of  integers as input(by reference)
+//Returns a new stack of integers(sorted)
+//stack<int>  this is  the return type
+//The function will return a stack that stores integers.
+//(stack<int> &input)  this is the parameter
+// the input is a stack of integers
+// &input (reference)
+// The stack is passed by reference
+// No copy is created 
+//Faster and memory-efficient
+//input.top()  just looks at the top element of the stack without removing it.
