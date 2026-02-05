@@ -1,0 +1,50 @@
+QUEUE :- A queue is a data  structure  that works on a very simple rule.
+
+FIRST IN, FIRST OUT
+
+Basic operations in a queue
+
+Enqueue   Add an element to the back of the queue
+Dequeue   Remove an element  from the front of the queue
+Front/Peek   See the first element without removing it
+IsEmpty      Check if the queue is IsEmpty
+
+1) Linear Queue:-
+insert at rear
+Remove from front
+Waste space after deletions(major drawback)
+
+
+2)  Circular Queue:-
+
+Last position connects back to first.
+
+
+3) Priority Queue
+
+Element served based on priority , not arrival time.
+
+3.1 Types:-
+Ascending priority queue
+Descdnding priority queue
+
+4) Deque(Double- Ended Queue)
+Insert and delete from both ends
+
+operations
+Insert front
+Insert rear 
+Delete front
+Delete rear
+
+5)Input-Restricted Deque
+
+Insertion at one end only
+Deletion at both ends
+
+6) Output -Restricted Deque
+
+Deletion at one end only
+Insertion at both ends
+
+
