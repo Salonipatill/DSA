@@ -1,0 +1,23 @@
+#include<iostream>
+This header file includes the input/output stream library
+It allows us to use cout, cin etc. for printing output and taking input.
+
+preprocessor directive
+A preprocessor directive is a line that start with # and gives instructions to the compiler before the actual code runs
+
+For example:-
+#include<iostream>
+tells the compiler to include the iostream header file before compiling.
+
+#include<vector>
+This include vector library.
+vector is dynamic array in C++ that can grow or shrink in size automatically
+
+#include<algorithm>
+This includes the algorithm library
+It contains useful functions like sort(), reverse(), max_element()
+
+using namespace declaration allows us to use standard C++ names like cout, cin and vector directly without writing std::
+before them  [std::cout, std::cin]
+
+namespace declaration tells the compiler to use all the names from the standard namespace(std) directly.
