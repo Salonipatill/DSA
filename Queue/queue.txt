@@ -48,3 +48,24 @@ Deletion at one end only
 Insertion at both ends
 
 
+Operation of a Queue:
+Enqueue
+Insert an element into the queue
+Where: At the rear(end)
+
+Dequeue
+Insert an element inti the queue
+Where:From the front
+
+Peek/Front
+View the front element
+Does not remove it
+
+IsEmpty
+Check whether the queue is IsEmpty
+
+IsFull
+Check whether the queue Is Full
+
+
+

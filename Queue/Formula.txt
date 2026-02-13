@@ -1,0 +1,10 @@
+(rear + 1) % SIZE
+
+Move in circular way
+Prevent index going out of bounds
+Help check queue full condition
+
+(front + 1) % SIZE
+
+Move front one step forward
+If it reaches the end, go back to index 0
