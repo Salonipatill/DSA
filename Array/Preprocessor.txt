@@ -1,0 +1,24 @@
+Preprocessor:-
+The preprocessor is a program that runs before the compiler.
+It prepares  source code by handling special lines that start with:#
+It runs automatically when we compile our program.
+
+Main Uses of the Preprocessor:-
+It copies the content of the header file into source file.
+
+
+What the Preprocessor Does NOT Do:-
+It does not check syntax
+It does not generate machine code
+It does not run the program
+It does not understand C++ logic
+
+
+the Preprocessor Does:-
+Replaces text
+Copies files
+Removes comments
+Handles # directives
+
+
+The preprocessor is a tool that prepares source code for compilation by handling # directives before the compiler translates it.

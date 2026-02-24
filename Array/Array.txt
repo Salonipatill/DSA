@@ -1,0 +1,7 @@
+ARRAY:-
+Array is a collection of elements of the same data type that are stored at contiguous (continuous) memory locations.
+We can access the elements of an array by using their index.
+
+
+
+INT_MIN is always a negative value.

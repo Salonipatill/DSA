@@ -1,0 +1,28 @@
+Hashing :
+Hashing is a technique that is used to uniquely identify a specific object from a group of similsr objects.
+
+Imagine  In libraries, each book is assigned a unique number that can be used to determine information about the book, such as its exact position in the library or thr users it has been issued to
+
+Assume that we have an object and we want to assign a key to it to make searchng easy.
+
+you can use a simple array like a data structure where keys(integers)
+can be used directly as an index to store values.
+
+where the keys are large and cannot be usd directly as an index, we should ues hashing.
+
+in Hashing,
+large keys are converted into small keys by using hash functions.
+The values are then stored is to distribute entries(key/value pairs) uniformly across an  array.
+
+Each element is assigned a key(converted key
+
+By using that key we can access the element in O(1) time
+
+Using the key, the algorithm(hash function) computes an index that suggests where an entry can be found or inserted.
+
+How to CREATE Hashing:
+KEY->HASHING FUNCTION(some logic)->HASH TABLE CREATED or GOT THE INDEX IN A array
+
+How to Access Hashing
+
+KEY ->HASHING FUNCTION-O(1)->Got the index

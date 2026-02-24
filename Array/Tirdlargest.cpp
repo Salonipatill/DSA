@@ -17,7 +17,7 @@
  }
 
  int main(){
-     vector<int>arr={12,45,67,8,19,19,19,19};
+     vector<int>arr={12,45,67,8,18,19,20,20};
      cout<<gtl(arr);
      return 0;
  }
