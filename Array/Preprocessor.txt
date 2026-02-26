@@ -21,4 +21,5 @@ Removes comments
 Handles # directives
 
 
-The preprocessor is a tool that prepares source code for compilation by handling # directives before the compiler translates it.
+The preprocessor is a tool that prepares source code 
+for compilation by handling # directives before the compiler translates it.
