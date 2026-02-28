@@ -1,0 +1,56 @@
+push_back() is a function of list.
+it Inserts the value at the end of the list.
+
+
+
+for (int value : table[index])
+
+Go through every element stored
+ inside table[index] one by one.
+
+
+int value
+This is a temporary variable.
+Each time the loop runs:
+It stores one element from the list.
+
+
+: table[index]
+This means:
+Take elements from this container (list)
+One by one
+
+
+auto means:compiler automatically decide the data type.
+
+
+
+:: is called the scope resolution operator.
+
+it Accesses something that belongs to a class.
+
+list<int>::iterator
+
+he iterator type defined inside the list class.
+
+iterator is defined inside container class
+So we must tell compiler which class's iterator
+
+
+list<int>::iterator it;
+creates a pointer-like object to move through the list.
+iterator behaves like a pointer.
+
+it = numbers.begin(); 
+Points to first element.
+
+it != numbers.end();
+Loop runs until last element.
+
+it++;
+Moves to next element.
+
+
+
+Accessing value:---
+*it      Dereference operator → gives actual value.
