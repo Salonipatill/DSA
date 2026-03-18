@@ -12,3 +12,4 @@ int main(){
 
     return 0;
 }
+//he * is called the dereference operator.

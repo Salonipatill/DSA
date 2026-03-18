@@ -26,3 +26,93 @@ KEY->HASHING FUNCTION(some logic)->HASH TABLE CREATED or GOT THE INDEX IN A arra
 How to Access Hashing
 
 KEY ->HASHING FUNCTION-O(1)->Got the index
+
+
+
+<------------------------------------------------------------------------------------------------------------------>
+Collisions in Hashing
+A collision in hashing occurs when two different inputs produce the same hash value.
+
+25 % 10 = 5
+35 % 10 = 5
+
+
+Open hashing is a way to handle collisions in a hash table.
+
+When two values go to the same position in the table, we store them together in a list at that position.
+
+It is also called closed addressing. Both names mean the same thing.
+
+What Is a Collision?
+
+A collision happens when two different keys give the same index after applying the hash function.
+hash(key) = key % 5
+
+If we insert:
+
+12 → 12 % 5 = 2
+
+22 → 22 % 5 = 2
+
+Both go to index 2 → This is a collision.
+
+
+Index 0 → —
+Index 1 → —
+Index 2 → 12 → 22
+Index 3 → —
+Index 4 → —
+
+
+
+Closed Hashing (Open Addressing) – In Simple Language
+
+Closed hashing, also called open addressing, is a way to handle collisions in a hash table.
+
+When two values go to the same index, we do NOT store them in a list.
+Instead, we find another empty position in the table.
+
+How Open Addressing Solves It
+
+If index 2 is already full:
+
+ Check the next index (3)
+ If 3 is full, check 4
+ Continue until we find an empty space
+So the table may look like:
+
+Index 0 → —
+Index 1 → —
+Index 2 → 12
+Index 3 → 22
+Index 4 → —
+
+
+Non-Cryptographic Hash Functions
+
+These are used in data structures like hash tables.
+
+Purpose: Fast searching and storing data
+Focus: Speed, not security
+
+Examples:
+
+Division Method
+Multiplication Method
+Folding Method
+Mid-Square Method
+MurmurHash
+
+Very fast
+Not secure for passwords
+
+
+Load Factor (in Hashing) 
+Load Factor tells us how full a hash table is.
+Definition
+Load Factor (α) = Number of elements stored / Size of hash table
+Where:
+n = number of elements
+m = size of hash table
+
+
