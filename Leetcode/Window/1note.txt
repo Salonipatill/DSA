@@ -1,0 +1,29 @@
+1. Reading a String from User
+
+Key concepts:
+string type
+getline(cin, s) reads a whole line
+cout prints output
+
+2. Using a Vector
+Practice declaring a vector, initializing it, and accessing elements.
+
+Key concepts:
+vector<int>
+vector.size()
+Index access numbers[i]
+
+
+3. Sliding Window Logic
+Practice moving two pointers over a string.
+Key concepts:
+For loop iteration
+s.length()
+Basic conditional (if)
+Two-pointer technique
+
+4. Maximum of Two Numbers
+Practice using the max() function from <algorithm>
+Key concepts:
+#include <algorithm>
+max(a, b) function
