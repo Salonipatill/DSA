@@ -65,3 +65,29 @@ int sum = val1 + val2 + val3;
 7.Custom Default getValue
 
 int val1 = (l1 != nullptr) ? l1->val : -5;
+
+
+
+n interviews, you can say:
+
+“I use a ternary operator to safely handle null pointers and avoid crashes.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ int temp1 = stoi(num1);
+        int temp2 = stoi(num2);
+
+        int mul = temp1*temp2 ;
+
+        string s = to_string(mul);

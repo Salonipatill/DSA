@@ -32,3 +32,28 @@ Compare 4 and 5 -> 4<5 -> no swap [1,2,4,4]
 
 List is sorted
 
+
+
+Time Complexity Overview:-
+
+Bubble Sort Has three cases:-
+
+Case               Description                              Time Complexity
+
+Best Case        The list is already sorted                     O(n)
+
+Worst Case        The list is sorted in reverse order           O(n^2) 
+
+Average Case      Random order of element                       O(n^2)
+
+
+
+
+
+Space Complexity:-
+
+Bubble sort does not need extra memory to sort the list.
+It sorts the elements i he same list by swapping them.
+Only a few teporary variables are used 
+
+

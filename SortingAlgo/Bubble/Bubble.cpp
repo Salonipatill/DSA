@@ -2,7 +2,6 @@
 using namespace std;
 
 int main(){
-
     int arr[5] = {2,4,3,1,5};
     
     for(int j = 0; j<5; j++)

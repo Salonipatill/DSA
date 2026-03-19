@@ -5,10 +5,13 @@ using namespace std;
 
 class Solution{
     public:
+
+    //------------------------------------------------------------------------------------
     string discountPrices(string sentence, int discount){
         stringstream ss(sentence);
         string word;
         string result = "";
+//---------------------------------------------------------------------------------------------
 
         while(ss >> word){
             if(word[0] == '$' && word.length() > 1){
@@ -20,7 +23,7 @@ class Solution{
                         break;
                     }
                 }
-
+ 
 
                 if(isPrice){
                     double price = stod(word.substr(1));
