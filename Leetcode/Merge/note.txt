@@ -1,0 +1,75 @@
+ITERATOR:-
+Iterator = a cursor/pointer to a container element.
+*iterator = the actual value at that cursor.
+
+In C++, * is called the dereference operator.
+It is used to get the value from a pointer or iterator.
+
+Think of an iterator like a pointer:
+The iterator itself is just a position or “cursor.”
+To see the actual value at that position, you must use *.
+
+
+begin() → returns an iterator to the first element of the container.
+begin() points to the first element in a container
+
+end() points just after the last element.
+
+end() → returns an iterator just past the last element of the container (not the last element itself!).
+
+What merged.end() is
+merged.end() → a pointer just past the last element
+Think of it like the cursor at the end of the array, not pointing to 6, but after 6.
+merged.end() --> |
+merged: [5][6]  cursor here
+
+This tells insert: “Add new elements starting at this cursor.”
+
+
+What nums1.begin() → nums1.end() means
+
+nums1.begin() → first element of nums1 → 1
+nums1.end() → just past last element → after 4
+This defines a range of elements to copy: [1, 2, 3, 4]
+
+How insert works internally
+
+Start at merged.end() cursor
+
+Take elements from nums1.begin() → nums1.end()
+Copy them one by one in order into merged, moving the cursor forward as you go
+Step by step:
+
+Step 1: Add 1 → merged: [5][6][1]
+Step 2: Add 2 → merged: [5][6][1][2]
+Step 3: Add 3 → merged: [5][6][1][2][3]
+Step 4: Add 4 → merged: [5][6][1][2][3][4]
+
+✅ The order is preserved. Nothing is reversed.
+
+
+Why it would be different with begin()
+
+If we did:
+
+merged.insert(merged.begin(), nums1.begin(), nums1.end());
+Start at the first element (5)
+Shift existing elements to the right to make space
+Step by step:
+
+Step 1: Insert 1 at start → [1][5][6]
+Step 2: Insert 2 at start → [2][1][5][6]
+Step 3: Insert 3 at start → [3][2][1][5][6]
+Step 4: Insert 4 at start → [4][3][2][1][5][6]
+
+Order gets reversed at the front because every new element is inserted before the previous one
+
+
+Key Takeaways
+
+merged.end() → append at the end, preserves order
+merged.begin() → insert at the start, existing elements shift → order may reverse if repeated
+insert(begin, end) → always copies elements in order from the given range
+
+
+Step 1: Simple Merge + Sort
