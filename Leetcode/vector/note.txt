@@ -1,0 +1,5 @@
+push_back:-
+push_back is a member function of vector
+its purpose : add an element at hte end of the vector.
+it increases the size of the vector by 1
+
