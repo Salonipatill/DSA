@@ -1,0 +1,38 @@
+ 1.Default Constructor
+
+ListNode() : val(0), next(nullptr) {}
+
+When we just need a placeholder node or a dummy node in our list.
+When the value is not known yet.
+Useful in arrays or vectors of nodes, where nodes need automatic initialization.
+
+Example:-
+ListNode*dummy = new ListNode();
+here val =0 , next = nullptr
+
+2. Value Constructor
+
+ListNode(int x) : val(x), next(nullptr) {}
+  
+When we know the value of the node , but the node does not link to another node yet.
+
+Example:-
+ListNode* node = new ListNode(5);
+
+3.Value + Next Pointer Constructor
+
+ListNode(int x, ListNode* next) : val(x), next(next) {}
+
+
+When we want ro create and link nodes in one line.
+Useful for building a linked list quicklyand safely.
+
+Example:-
+ListNode* node3 = new ListNode(3);
+ListNode* node2 = new ListNode(2,node3);
+ListNode* node1 = new ListNode(1, node2);
+
+Forms the linked list : 1->2->3->nullptr.
+
+
+
