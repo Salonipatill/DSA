@@ -1,0 +1,5 @@
+stringstream temp; = create a temporary string stream to store and format data as a 
+
+stod = string to double
+Converts a string into a number (decimal)
+
