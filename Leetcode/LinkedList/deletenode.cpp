@@ -2,10 +2,13 @@
 using namespace std;
 
 struct ListNode{
-    int val;
-    ListNode *next;
+    int val;//data
+    ListNode *next;//pointer
+    //Default constructor
     ListNode() : val(0), next(nullptr) {}
+   //Constructor with value
     ListNode(int x) : val(x), next(nullptr) {}
+    //Constructor with value and next pointer
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 
 };
