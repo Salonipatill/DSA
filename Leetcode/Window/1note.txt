@@ -27,3 +27,5 @@ Practice using the max() function from <algorithm>
 Key concepts:
 #include <algorithm>
 max(a, b) function
+
+5.lastindex of charecter

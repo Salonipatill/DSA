@@ -11,7 +11,7 @@ int main(){
         freq[ch]++;
     }
     for(int i=0; i<256; i++){
-        if(freq[i]>=0){
+        if(freq[i]>0){
             cout<<char(i)<<":"<<freq[i]<<"";
 
         }

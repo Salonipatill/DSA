@@ -6,7 +6,7 @@ struct ListNode{
     ListNode* next;
     ListNode(int x){
         val = x;
-        next = NULL;
+        next = NULL;k
     }
 };
 

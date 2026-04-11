@@ -29,12 +29,14 @@ bool isBalanced(string& s){
         else if(c == ')' || c == '}' || c == ']'){
 
             if(st.empty()) return false;
-            char top = st.top();
 
+            char top = st.top();
             if( (c == ')' && top!= '(') || (c== '}' && top!= '{') || (c == ']' && top!= '[') ){
                 return false;
             }
+
             st.pop();
+            
         }
     }
     return st.empty();
