@@ -57,4 +57,3 @@ void insert(ListNode*& head, int val){
 void printList(ListNode* head){
     while(head)
     
-}
