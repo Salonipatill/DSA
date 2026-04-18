@@ -1,0 +1,54 @@
+Important Edge Cases
+
+Always think about:
+
+Trailing spaces → "hello world "
+Single word → "hello"
+Empty string → ""
+Multiple spaces → "hello world"
+Special characters → "hello world!"
+
+
+find_last_of is a predefined function name in the std::string class.
+
+
+
+Tokenization Method (Small Note)
+Tokenization means splitting a string into words using a delimiter (space ' ').
+After splitting, each word is stored as a separate token.
+The last token is the last word of the string.
+
+substr is a built-in function of std::string used to extract a part (substring) of a string.
+
+substr:-
+Used to take a portion of a string.
+
+Syntax:-str.substr(start_index, length)
+
+Purpose:-Extract substring
+
+Example:
+string str = "hello world";
+str.substr(6, 5);   // "world"
+
+Give me part of string
+
+2. find (First occurrence)
+
+Finds first position of a character/string
+
+Syntax:
+str.find("pattern")
+
+example:string str = "hello world";
+str.find('o');   // 4
+
+3. rfind (Last occurrence)
+
+Finds last position of a character/string
+
+syntax:-str.rfind("pattern")
+
+
+string str = "hello world";
+str.rfind('o');   // 7
