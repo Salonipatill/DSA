@@ -2,6 +2,7 @@ A tree is a way to store data in a hierarchical structure
 Types of Trees:-
 Binary Tree:-
 Each node has at most 2 children
+A Tree is a non-linear hierarchical data structure.
 
 
 How Tree Looks in code
@@ -11,13 +12,22 @@ struct TreeNode{
     TreeNode* left;
     TreeNode* right;
 };
-
+or 
 Each node stores :
 value
 pointer to left child 
 pointer to right child
 
+struct Node {
+    int data;
+    Node* left;
+    Node* right;
 
+    Node(int val) {
+        data = val;
+        left = right = NULL;
+    }
+};
 Tree Traversal
 Traversal = visiting all nodes.
 
