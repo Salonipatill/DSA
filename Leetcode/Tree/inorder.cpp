@@ -13,8 +13,8 @@ struct Node{
 };
 
 
-void inorder(Node*root){
-    if(root == NULL)return;
+int inorder(Node*root){
+    if(root == NULL)return 0;
 
     inorder(root->left);
 
