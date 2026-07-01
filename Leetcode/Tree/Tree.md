@@ -53,6 +53,18 @@ Trees are solved using
 Recursion
 Stack
 
+```text
+Time Complexity
+```
+
+Think:
+
+How many nodes are there? → n
+Is each node visited once? → Yes
+
+Answer:
+
+✅ O(n)
 
 
 
