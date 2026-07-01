@@ -29,15 +29,15 @@ After completing these problems, you will have mastered:
 
 # 🎯 Recommended Solving Order
 
-- [ ] 94. Binary Tree Inorder Traversal
-- [ ] 144. Binary Tree Preorder Traversal
-- [ ] 145. Binary Tree Postorder Traversal
-- [ ] 102. Binary Tree Level Order Traversal
-- [ ] 107. Binary Tree Level Order Traversal II
-- [ ] 104. Maximum Depth of Binary Tree
-- [ ] 111. Minimum Depth of Binary Tree
-- [ ] 100. Same Tree
-- [ ] 101. Symmetric Tree
+- [ X] 94. Binary Tree Inorder Traversal
+- [ X] 144. Binary Tree Preorder Traversal
+- [ X] 145. Binary Tree Postorder Traversal
+- [ X] 102. Binary Tree Level Order Traversal
+- [ X] 107. Binary Tree Level Order Traversal II
+- [ X] 104. Maximum Depth of Binary Tree
+- [X ] 111. Minimum Depth of Binary Tree
+- [ X] 100. Same Tree
+- [ X] 101. Symmetric Tree
 - [ ] 226. Invert Binary Tree
 - [ ] 112. Path Sum
 - [ ] 257. Binary Tree Paths
