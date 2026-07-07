@@ -22,8 +22,8 @@ This repository documents my journey of learning Data Structures and Algorithms 
 | ✅ Linked List | Completed |
 | ✅ Stack | Completed |
 | ✅ Queue | Completed |
-| 🔄 Trees | In Progress |
-| ⏳ Binary Search Tree | Upcoming |
+| ✅ Trees | In Progress |
+| 🔄 Binary Search Tree | Upcoming |
 | ⏳ Heap | Upcoming |
 | ⏳ Hashing | Upcoming |
 | ⏳ Recursion | Upcoming |
@@ -37,11 +37,11 @@ This repository documents my journey of learning Data Structures and Algorithms 
 
 # 📈 Current Status
 
-🟢 Topics Completed: **4**
+🟢 Topics Completed: **5**
 
-🌳 Currently Learning: **Trees**
+🌳 Currently Learning: **Binary Search Tree**
 
-🎯 Next Topic: **Binary Search Tree**
+🎯 Next Topic: **Heap**
 
 ---
 
