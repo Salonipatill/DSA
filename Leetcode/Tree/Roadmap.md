@@ -38,11 +38,11 @@ After completing these problems, you will have mastered:
 - [X ] 111. Minimum Depth of Binary Tree
 - [ X] 100. Same Tree
 - [ X] 101. Symmetric Tree
-- [ ] 226. Invert Binary Tree
-- [ ] 112. Path Sum
-- [ ] 257. Binary Tree Paths
-- [ ] 543. Diameter of Binary Tree
-- [ ] 110. Balanced Binary Tree
+- [X ] 226. Invert Binary Tree
+- [ X] 112. Path Sum
+- [ X] 257. Binary Tree Paths
+- [X ] 543. Diameter of Binary Tree
+- [X ] 110. Balanced Binary Tree
 - [ ] 236. Lowest Common Ancestor of a Binary Tree
 - [ ] 199. Binary Tree Right Side View
 - [ ] 103. Binary Tree Zigzag Level Order Traversal

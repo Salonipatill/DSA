@@ -15,9 +15,9 @@ int main(){
         int math = q.front().second.first;
         int science = q.front().second.second;
 
-        cout<<"id:"<<id<<" "
+        cout<<"id: "<<id<<" "
         <<"math: "<<math<<" "
-        <<"science:"<<science<<endl;
+        <<"science: "<<science<<endl;
 
         q.pop();
     }

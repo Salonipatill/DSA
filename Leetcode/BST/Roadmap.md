@@ -8,10 +8,10 @@ A structured roadmap to master **Binary Search Trees (BST)** from **Easy → Adv
 
 Learn the fundamental BST operations and properties.
 
-- [ ] **700** - Search in a Binary Search Tree *(Easy)*
-- [ ] **701** - Insert into a Binary Search Tree *(Medium)*
-- [ ] **98** - Validate Binary Search Tree *(Medium)*
-- [ ] **530** - Minimum Absolute Difference in BST *(Easy)*
+- [ X] **700** - Search in a Binary Search Tree *(Easy)*
+- [ X] **701** - Insert into a Binary Search Tree *(Medium)*
+- [X ] **98** - Validate Binary Search Tree *(Medium)*
+- [ X] **530** - Minimum Absolute Difference in BST *(Easy)*
 
 ---
 
@@ -19,8 +19,8 @@ Learn the fundamental BST operations and properties.
 
 Understand why inorder traversal is important in BSTs.
 
-- [ ] **94** - Binary Tree Inorder Traversal *(Easy)*
-- [ ] **230** - Kth Smallest Element in a BST *(Medium)*
+- [X ] **94** - Binary Tree Inorder Traversal *(Easy)*
+- [ X] **230** - Kth Smallest Element in a BST *(Medium)*
 - [ ] **173** - Binary Search Tree Iterator *(Medium)*
 - [ ] **538** - Convert BST to Greater Tree *(Medium)*
 - [ ] **1038** - Binary Search Tree to Greater Sum Tree *(Medium)*
