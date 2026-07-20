@@ -104,3 +104,21 @@ What should be compared (first, second, sum, difference, etc.)
 
 
 Leetcode number 973 laern again
+
+
+
+| LeetCode # | Problem Name                                                           | Difficulty |
+| ---------- | ---------------------------------------------------------------------- | ---------- |
+| **1046**   | Last Stone Weight                                                      | Easy       |
+| **703**    | Kth Largest Element in a Stream                                        | Easy       |
+| **295**    | Find Median from Data Stream                                           | Hard       |
+| **215**    | Kth Largest Element in an Array                                        | Medium     |
+| **347**    | Top K Frequent Elements                                                | Medium     |
+| **451**    | Sort Characters By Frequency                                           | Medium     |
+| **767**    | Reorganize String                                                      | Medium     |
+| **621**    | Task Scheduler                                                         | Medium     |
+| **23**     | Merge k Sorted Lists                                                   | Hard       |
+| **973**    | K Closest Points to Origin                                             | Medium     |
+| **506**    | Relative Ranks                                                         | Easy       |
+| * 
+| **1167**   | Minimum Cost to Connect Sticks *(same concept as Connect N Ropes)*     | Medium     |

@@ -22,13 +22,21 @@ This repository documents my journey of learning Data Structures and Algorithms 
 | ✅ Linked List | Completed |
 | ✅ Stack | Completed |
 | ✅ Queue | Completed |
-| ✅ Trees | In Progress |
-| 🔄 Binary Search Tree | Upcoming |
-| ⏳ Heap | Upcoming |
-| ⏳ Hashing | Upcoming |
+| ✅ Trees |Completed  |
+| ✅Binary Search Tree |Completed |
+| ✅Heap |Completed|
+| 🔄 Hashing | In Progress |
+|⏳ Sorting Algorithms| Upcoming |
+    • Bubble Sort
+    • Selection Sort
+    • Insertion Sort
+    • Merge Sort
+    • Quick Sort
+    • Counting Sort (optional)
+    • Radix Sort (optional)
+| ⏳ Graph | Upcoming |
 | ⏳ Recursion | Upcoming |
 | ⏳ Backtracking | Upcoming |
-| ⏳ Graph | Upcoming |
 | ⏳ Greedy | Upcoming |
 | ⏳ Dynamic Programming | Upcoming |
 | ⏳ Trie | Upcoming |
@@ -37,11 +45,11 @@ This repository documents my journey of learning Data Structures and Algorithms 
 
 # 📈 Current Status
 
-🟢 Topics Completed: **5**
+🟢 Topics Completed: **7**
 
-🌳 Currently Learning: **Binary Search Tree**
+🌳 Currently Learning: **Hashing**
 
-🎯 Next Topic: **Heap**
+🎯 Next Topic: **Sorting Algorithms**
 
 ---
 
@@ -51,8 +59,8 @@ This repository documents my journey of learning Data Structures and Algorithms 
 - [x] Linked List
 - [x] Stack
 - [x] Queue
-- [ ] Trees
-- [ ] Binary Search Tree
+- [X ] Trees
+- [X ] Binary Search Tree
 - [ ] Heap
 - [ ] Hashing
 - [ ] Recursion
