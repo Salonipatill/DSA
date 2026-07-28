@@ -144,3 +144,33 @@ for (auto &it : mp) {
         return true;
     }
 }
+
+
+---------------------------------------
+
+If the element is not found, then:
+
+visited.find(n)
+
+returns
+
+visited.end()
+
+So the comparison becomes:
+
+visited.end() == visited.end()
+
+which is
+
+true
+
+
+
+
+----------------------
+
+3. Access inside a loop
+for (int i = 0; i < s.size(); i++)
+{
+    cout << s[i] << " -> " << mp[s[i]] << endl;
+}
