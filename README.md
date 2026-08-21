@@ -25,8 +25,8 @@ This repository documents my journey of learning Data Structures and Algorithms 
 | ✅ Trees |Completed  |
 | ✅Binary Search Tree |Completed |
 | ✅Heap |Completed|
-| 🔄 Hashing | In Progress |
-|⏳ Sorting Algorithms| Upcoming |
+| ✅ Hashing |Completed|
+|🔄 Sorting Algorithms| In Progress |
     • Bubble Sort
     • Selection Sort
     • Insertion Sort
@@ -45,11 +45,11 @@ This repository documents my journey of learning Data Structures and Algorithms 
 
 # 📈 Current Status
 
-🟢 Topics Completed: **7**
+🟢 Topics Completed: **8**
 
-🌳 Currently Learning: **Hashing**
+🌳 Currently Learning: **Sorting Algorithms**
 
-🎯 Next Topic: **Sorting Algorithms**
+🎯 Next Topic: **Graph**
 
 ---
 
@@ -59,10 +59,10 @@ This repository documents my journey of learning Data Structures and Algorithms 
 - [x] Linked List
 - [x] Stack
 - [x] Queue
-- [X ] Trees
-- [X ] Binary Search Tree
-- [ ] Heap
-- [ ] Hashing
+- [X] Trees
+- [X] Binary Search Tree
+- [X] Heap
+- [X] Hashing
 - [ ] Recursion
 - [ ] Backtracking
 - [ ] Graph
