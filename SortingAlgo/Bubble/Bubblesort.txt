@@ -6,7 +6,7 @@ The largest element " bubbles up " to its correct position in each pass through 
 
 LOGIC:-
 1. Look at the list of numbers.
-2. Compar each number with the one next to it.
+2. Compare each number with the one next to it.
 3. If the first numbmer is bigger than the second . swap them.
 4. Move to thhe next pair and repeat.
 5. After going through the entire list once , the largest number will be at the end .

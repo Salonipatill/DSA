@@ -142,15 +142,15 @@ Interview Usage	When sorted order is needed	When fast lookup is needed
 |  ⭐               |
 |  ⭐         |
 |  ⭐          |
-|  ⭐ 18 | **448. Find All Numbers Disappeared in an Array** | Easy       | Hash set                   |
+|  ⭐ 18 | **Array***448. Find All Numbers Disappeared in an*** | Easy       | Hash set                   |
 |  ⭐ 19 | **645. Set Mismatch**                             | Easy       | Hash map                   |
-|  ⭐ 20 | **599. Minimum Index Sum of Two Lists**           | Easy       | Hash map    
+  
  10 | **290. Word Pattern**                             | Easy       | Two-way mapping 
  14 | **500. Keyboard Row**                             | Easy       | Hash set                     |
  15 | **389. Find the Difference**                      | Easy       | Character frequency
  16 | **771. Jewels and Stones**                        | Easy       | Hash set lookup            |
 |  ⭐ 17 | **1002. Find Common Characters**                  | Easy       | Frequency arrays  
-  
+  |  ⭐ 20 | **599. Minimum Index Sum of Two Lists**           | Easy       | Hash map  
 
 | Order | LeetCode                                              | Difficulty | Main Concept                  |
 | ----: | ----------------------------------------------------- | ---------- | ----------------------------- |

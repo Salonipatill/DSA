@@ -122,3 +122,56 @@ Leetcode number 973 laern again
 | **506**    | Relative Ranks                                                         | Easy       |
 | * 
 | **1167**   | Minimum Cost to Connect Sticks *(same concept as Connect N Ropes)*     | Medium     |
+
+
+ 
+
+
+
+# Why I Made These Mistakes
+
+### 1. Wrong `unordered_map` Type
+
+❌ `unordered_map<char, int>`
+
+✅ `unordered_map<int, int>`
+
+**Why?**
+`nums` contains integers, so the key type must be `int`.
+
+---
+
+### 2. Wrong Pair Order
+
+❌ `{number, frequency}`
+
+✅ `{frequency, number}`
+
+**Why?**
+`priority_queue<pair<int,int>>` compares the **first** element of the pair. To get the highest frequency first, frequency must be stored first.
+
+---
+
+### 3. Used `.first` Instead of `.second`
+
+❌ `pq.top().first`
+
+✅ `pq.top().second`
+
+**Why?**
+The pair is `{frequency, number}`.
+
+* `.first` → frequency
+* `.second` → number
+
+The problem asks for the numbers.
+
+---
+
+## Key Lesson
+
+Before coding, decide:
+
+1. What data do I need to store?
+2. In what order should I store it?
+3. How does the data structure compare its elements?

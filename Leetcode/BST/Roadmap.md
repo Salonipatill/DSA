@@ -21,7 +21,7 @@ Understand why inorder traversal is important in BSTs.
 
 - [X ] **94** - Binary Tree Inorder Traversal *(Easy)*
 - [ X] **230** - Kth Smallest Element in a BST *(Medium)*
-- [ ] **173** - Binary Search Tree Iterator *(Medium)*
+- [] **173** - Binary Search Tree Iterator *(Medium)*
 - [ ] **538** - Convert BST to Greater Tree *(Medium)*
 - [ ] **1038** - Binary Search Tree to Greater Sum Tree *(Medium)*
 
@@ -49,8 +49,8 @@ Build BSTs from different data structures.
 
 Learn how to modify existing BSTs.
 
-- [ ] **450** - Delete Node in a BST *(Medium)*
-- [ ] **99** - Recover Binary Search Tree *(Medium)*
+- [ X] **450** - Delete Node in a BST *(Medium)*
+- [ x] **99** - Recover Binary Search Tree *(Medium)*
 - [ ] **669** - Trim a Binary Search Tree *(Medium)*
 - [ ] **1382** - Balance a Binary Search Tree *(Medium)*
 

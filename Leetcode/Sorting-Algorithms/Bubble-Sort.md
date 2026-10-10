@@ -33,8 +33,9 @@ Suppose we ha
 | **LeetCode 75 – Sort Colors**          | Repeated swapping                   |
 | **LeetCode 280 – Wiggle Sort**         | Adjacent comparison + swapping      |
 | **LeetCode 324 – Wiggle Sort II**      | Sorting + rearrangement             |
-| **LeetCode 969 – Pancake Sorting**     | Sorting through swaps               |
+|             |
 | **LeetCode 147 – Insertion Sort List** | Sorting concept *(not Bubble Sort)* |
+**LeetCode 969 – Pancake Sorting**     | Sorting through swaps   
 
 
 
